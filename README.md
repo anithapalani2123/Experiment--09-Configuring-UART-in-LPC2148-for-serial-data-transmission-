@@ -43,6 +43,7 @@ UART0 Line Control Register (U0LCR): The Line Control Register is used to set th
 ## Figure -02 UART interface virtual terminal
 
 ### Kiel - Program :
+```
 #include <LPC213x.H>              // LPC21xx definitions                      */
 char a;
 void uart0_init(){
@@ -66,6 +67,7 @@ int main (void)  {
    uart0_putc(a);
   }                               
 }
+```
 ### Output :
 ### BEFORE STIMULATION:
 ![OUTPUT](./EXP9%20OUT1.png)
